@@ -16,6 +16,11 @@ import twitter4j.TwitterFactory;
  * @author cromerofajar
  */
 public class EnviarUnTwitter {
+    /*
+    *
+    * twitter: method used to post a tweet
+    *
+    */
     public void twittear() throws TwitterException{
     Twitter twitter = TwitterFactory.getSingleton();
     String mensaje=JOptionPane.showInputDialog(null,"Escriba su nuevo tweet");

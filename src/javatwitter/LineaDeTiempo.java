@@ -12,6 +12,11 @@ import twitter4j.TwitterFactory;
  * @author cromerofajar
  */
 public class LineaDeTiempo  {
+    /*
+    *
+    * verLineaDeTiempo: Method used to obtein the time line
+    *
+    */
    public void verLienaDeTiempo()throws TwitterException{
     Twitter twitter = TwitterFactory.getSingleton();
         List<Status> statuses = twitter.getHomeTimeline();

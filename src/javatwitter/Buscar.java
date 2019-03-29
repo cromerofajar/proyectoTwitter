@@ -13,8 +13,19 @@ import twitter4j.TwitterFactory;
  * @author cromerofajar
  */
 public class Buscar {
+    
+    /*
+    *
+    * buscarPor: method used to search for a tweet
+    *
+    */
     public void buscarPor() throws TwitterException{
     Twitter twitter = TwitterFactory.getSingleton();
+    /*
+    *
+    * @param buscar used to enter what you want to search
+    *
+    */
     String buscar=JOptionPane.showInputDialog(null,"Que desea buscar?");
     Query query = new Query(buscar);
     QueryResult result = twitter.search(query);

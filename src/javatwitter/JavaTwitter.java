@@ -20,11 +20,11 @@ public class JavaTwitter {
     public static void main(String[] args) throws TwitterException {
         /*
         *
-        * 
+        *  menu: It has used to select option in menu
+        *  confirmar: It has used to select exit option.
         *
         */
-        
-        int menu=0;
+        int confirmar,menu=0;
         do{
             menu=Integer.parseInt(JOptionPane.showInputDialog(null,"******MENU******\n\n Seleccione que desea realizar:\n1-ver linea de tiempo de sus twitter\n2-Escribir un twitter\n3-Buscar por una palabra o #\n4-Salir"));
            switch(menu){
@@ -38,7 +38,7 @@ public class JavaTwitter {
                        busc.buscarPor();
                        break;
                 case 4:
-                    int confirmar=Integer.parseInt(JOptionPane.showInputDialog(null,"Seguro que desea salir?\n1-Si\n2-No"));
+                    confirmar=Integer.parseInt(JOptionPane.showInputDialog(null,"Seguro que desea salir?\n1-Si\n2-No"));
                     if(confirmar==1){
                     System.exit(0);}
                     else{
