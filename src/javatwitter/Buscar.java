@@ -23,7 +23,7 @@ public class Buscar {
     Twitter twitter = TwitterFactory.getSingleton();
     /*
     *
-    * @param buscar used to enter what you want to search
+    * buscar: used to enter what you want to search
     *
     */
     String buscar=JOptionPane.showInputDialog(null,"Que desea buscar?");
