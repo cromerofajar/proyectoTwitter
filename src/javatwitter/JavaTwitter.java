@@ -24,6 +24,8 @@ public class JavaTwitter {
         *  confirmar: It has used to select exit option.
         *
         */
+        
+        Claves.clave();
         int confirmar,menu=0;
         do{
             menu=Integer.parseInt(JOptionPane.showInputDialog(null,"******MENU******\n\n Seleccione que desea realizar:\n1-ver linea de tiempo de sus twitter\n2-Escribir un twitter\n3-Buscar por una palabra o #\n4-Salir"));
